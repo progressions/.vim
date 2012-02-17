@@ -15,3 +15,4 @@ syntax on
 " Enable file type detection and do language-dependent indenting.
 filetype plugin indent on
 
+set t_Co=256
