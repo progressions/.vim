@@ -16,5 +16,14 @@ syntax on
 filetype plugin indent on
 
 set t_Co=256
+set number
+set softtabstop=2
+set shiftwidth=2
+set tabstop=2
+set expandtab
+set modeline
+set ls=2
 
-colorscheme Solarized
+set background=dark
+
+" colorscheme solarized

@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/ipriestley/projects/otherinbox/app/views/admin/markets'
+let g:netrw_dirhist_2='/Users/ipriestley/.rvm/gems/ree-1.8.7-2011.03@otherinbox/gems/idiom-0.4.4/lib'
+let g:netrw_dirhist_3='/Users/ipriestley/.rvm/gems/ree-1.8.7-2011.03@otherinbox/gems/idiom-0.4.4/lib/idiom'
