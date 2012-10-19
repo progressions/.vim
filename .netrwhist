@@ -1,5 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/Users/ipriestley/projects/otherinbox/app/views/admin/markets'
-let g:netrw_dirhist_2='/Users/ipriestley/.rvm/gems/ree-1.8.7-2011.03@otherinbox/gems/idiom-0.4.4/lib'
-let g:netrw_dirhist_3='/Users/ipriestley/.rvm/gems/ree-1.8.7-2011.03@otherinbox/gems/idiom-0.4.4/lib/idiom'
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/ipriestley/.rvm/gems/ruby-1.9.3-p194@otherinbox/gems/i18n-js-2.1.2/lib'
+let g:netrw_dirhist_2='/Users/ipriestley/.rvm/gems/ruby-1.9.3-p194@otherinbox/gems/i18n-js-2.1.2/vendor/assets/javascripts'
+let g:netrw_dirhist_3='/Users/ipriestley/.rvm/gems/ruby-1.9.3-p194@otherinbox/gems/i18n-js-2.1.2/vendor/assets/javascripts/i18n'
+let g:netrw_dirhist_4='/Users/ipriestley/.rvm/gems/ruby-1.9.3-p194@otherinbox/gems/i18n-js-2.1.2/vendor/assets/javascripts'
+let g:netrw_dirhist_5='/Users/ipriestley/projects/oib/lib/tasks'
+let g:netrw_dirhist_6='/Users/ipriestley/projects/oib/lib/reporters'
+let g:netrw_dirhist_7='/Users/ipriestley/projects/oib/app/models/user'
+let g:netrw_dirhist_8='/Users/ipriestley/projects/oib/app/views/digest_mailer'
