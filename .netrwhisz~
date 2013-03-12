@@ -1,6 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
-let g:netrw_dirhist_1='/Users/ipriestley/projects/oib/features/step_definitions'
-let g:netrw_dirhist_2='/Users/ipriestley/projects/oib/features'
-let g:netrw_dirhist_3='/Users/ipriestley/projects/oib/features/support'
-let g:netrw_dirhist_4='/Users/ipriestley/projects/unsubscriber/app/views'

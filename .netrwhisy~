@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/Users/ipriestley/projects/unsubscriber/spec/javascripts/base'
-let g:netrw_dirhist_2='/Users/ipriestley/projects/unsubscriber/spec/javascripts/authorize'
-let g:netrw_dirhist_3='/Users/ipriestley/projects/unsubscriber/spec/javascripts/support'
-let g:netrw_dirhist_4='/Users/ipriestley/projects/unsubscriber/spec/javascripts/support/profiles'
-let g:netrw_dirhist_5='/Users/ipriestley/projects/ymdp/app'
-let g:netrw_dirhist_6='/Users/ipriestley/projects/ymdp/app/views'
-let g:netrw_dirhist_7='/Users/ipriestley/projects/ymdp/app/views/layouts'
