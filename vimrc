@@ -17,29 +17,20 @@ filetype plugin indent on
 
 
 " My preferred default tab settings (makes tabs stand out)
-set ts=4 sts=2 sw=2 expandtab
+set ts=2 sts=2 sw=2 expandtab
 
 " Only do this part when compiled with support for autocommands
 if has("autocmd")
   " Syntax of these languages is fussy over tabs Vs spaces
   autocmd FileType make setlocal ts=8 sts=8 sw=8 noexpandtab
-  autocmd FileType python setlocal ts=4 sts=4 sw=4 expandtab
   autocmd Filetype text setlocal tw=80 formatoptions+=a spell
-  autocmd BufNewFile,BufRead *.md set filetype=markdown syntax=markdown
-  autocmd Filetype markdown setlocal spell
-
-  " Syntax highlighting for pig files
-  autocmd BufNewFile,BufRead *.pig set filetype=pig syntax=pig
 
   autocmd BufNewFile,BufRead *.tsv set filetype=tsv
   autocmd FileType tsv setlocal noexpandtab
 
-  autocmd BufNewFile,BufRead *.fish set filetype=fish syntax=fish
-
   " Automatically source my vimrc when I save it
   autocmd BufWritePost .vimrc source $MYVIMRC
 endif
-
 
 
 " For showing hidden characters
@@ -69,7 +60,7 @@ set lazyredraw
 
 set showmode
 
-set wildmenu
+" set wildmenu
 
 set autoread
 
@@ -109,8 +100,8 @@ set completeopt=menu,preview,longest
 set laststatus=2
 set statusline=%f%(\ %M%)%(\ %R%)%(\ %W%)%(\ %y%)%=%-14.(%l,%c%V%)\ %P
 
-set ai
-set cpoptions+=$
+" set ai
+" set cpoptions+=$
 
 set tags=./tags;
 
