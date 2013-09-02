@@ -119,3 +119,4 @@ set noeb vb t_vb=
 au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
 
 au BufNewFile,BufRead *.tml set filetype=html
+
