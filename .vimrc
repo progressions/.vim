@@ -15,6 +15,8 @@ syntax on
 filetype off
 filetype plugin indent on
 
+au BufNewFile,BufRead *.prawn set filetype=ruby
+au BufNewFile,BufRead *.axlsx set filetype=ruby
 
 " My preferred default tab settings (makes tabs stand out)
 set ts=2 sts=2 sw=2 expandtab
@@ -89,7 +91,7 @@ nmap <Leader>t :FufTaggedFile<CR>
 nmap <Leader>c :!ctags --langmap=Ruby:+.haml.slim.erb --extra=+fq -R --langdef=scss --langmap=scss:.scss.sass.css .<CR><CR>
 
 set background=dark
-" colorscheme solarized
+colorscheme solarized
 set number
 set nowrap
 set linebreak
@@ -119,4 +121,8 @@ set noeb vb t_vb=
 au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
 
 au BufNewFile,BufRead *.tml set filetype=html
+
+call togglebg#map("<F5>")
+
+highlight VertSplit    ctermfg=White   ctermbg=DarkGrey cterm=bold
 
