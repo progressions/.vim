@@ -126,5 +126,10 @@ call togglebg#map("<F5>")
 
 highlight VertSplit    ctermfg=White   ctermbg=DarkGrey cterm=bold
 
+function! WriteMarkdown()
+  set wrap linebreak nolist
+  set columns=120
+endfunction
+
 " turn-on distraction free writing mode for markdown files
-" au BufNewFile,BufRead *.{md,mdown,mkd,mkdn,markdown,mdwn} call DistractionFreeWriting()
+au BufNewFile,BufRead *.{md,mdown,mkd,mkdn,markdown,mdwn} call WriteMarkdown()
