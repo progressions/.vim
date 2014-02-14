@@ -128,7 +128,7 @@ highlight VertSplit    ctermfg=White   ctermbg=DarkGrey cterm=bold
 
 function! WriteMarkdown()
   set wrap linebreak nolist
-  set columns=120
+  " set columns=120
 endfunction
 
 " turn-on distraction free writing mode for markdown files
