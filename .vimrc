@@ -132,4 +132,4 @@ function! WriteMarkdown()
 endfunction
 
 " turn-on distraction free writing mode for markdown files
-au BufNewFile,BufRead *.{md,mdown,mkd,mkdn,markdown,mdwn} call WriteMarkdown()
+" au BufNewFile,BufRead *.{md,mdown,mkd,mkdn,markdown,mdwn} call WriteMarkdown()
