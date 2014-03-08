@@ -128,8 +128,10 @@ highlight VertSplit    ctermfg=White   ctermbg=DarkGrey cterm=bold
 
 function! WriteMarkdown()
   set wrap linebreak nolist
-  " set columns=120
+  map j gj
+  map k gk
 endfunction
 
 " turn-on distraction free writing mode for markdown files
 au BufNewFile,BufRead *.{md,mdown,mkd,mkdn,markdown,mdwn} call WriteMarkdown()
+
