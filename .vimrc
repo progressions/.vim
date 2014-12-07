@@ -102,6 +102,8 @@ set completeopt=menu,preview,longest
 set laststatus=2
 set statusline=%f%(\ %M%)%(\ %R%)%(\ %W%)%(\ %y%)%=%-14.(%l,%c%V%)\ %P
 
+au BufRead,BufNewFile *.rabl setfiletype ruby
+
 " set ai
 " set cpoptions+=$
 
