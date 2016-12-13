@@ -124,7 +124,7 @@ au BufNewFile,BufReadPost *.coffee setl shiftwidth=2 expandtab
 
 au BufNewFile,BufRead *.tml set filetype=html
 
-call togglebg#map("<F5>")
+" call togglebg#map("<F5>")
 
 highlight VertSplit    ctermfg=White   ctermbg=DarkGrey cterm=bold
 
@@ -135,4 +135,6 @@ function! WriteMarkdown()
 endfunction
 
 " turn-on distraction free writing mode for markdown files
-au BufNewFile,BufRead *.{md,mdown,mkd,mkdn,markdown,mdwn} call WriteMarkdown()
+" au BufNewFile,BufRead *.{md,mdown,mkd,mkdn,markdown,mdwn} call WriteMarkdown()
+" autocmd BufNewFile,BufReadPost *.md set filetype=markdown
+
