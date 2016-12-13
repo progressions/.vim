@@ -91,7 +91,7 @@ nmap <Leader>t :FufTaggedFile<CR>
 nmap <Leader>c :!ctags --langmap=Ruby:+.haml.slim.erb --extra=+fq -R --langdef=scss --langmap=scss:.scss.sass.css .<CR><CR>
 
 set background=dark
-colorscheme solarized
+" colorscheme solarized
 set number
 set nowrap
 set linebreak
