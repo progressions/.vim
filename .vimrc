@@ -15,9 +15,6 @@ syntax on
 filetype off
 filetype plugin indent on
 
-au BufNewFile,BufRead *.prawn set filetype=ruby
-au BufNewFile,BufRead *.axlsx set filetype=ruby
-
 " My preferred default tab settings (makes tabs stand out)
 set ts=2 sts=2 sw=2 expandtab
 
@@ -34,6 +31,12 @@ if has("autocmd")
   autocmd BufWritePost .vimrc source $MYVIMRC
 endif
 
+nnoremap <leader>sv :source $MYVIMRC<cr>
+nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+nnoremap <leader>" viw<esc>a"<esc>bi"<esc>lel
+inoremap jk <esc>
+inoremap <esc> <nop>
+iabbrev fetaure feature
 
 " For showing hidden characters
 set list listchars=tab:▸\ ,trail:•
